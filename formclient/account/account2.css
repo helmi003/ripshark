@@ -1,0 +1,52 @@
+.container{
+    height: 100%;
+    align-content: center; 
+    color: black;
+}
+.card{
+    height: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(4, 24, 88, 0.5) !important;
+    font-size: 20px;
+}
+
+.card-header h3{
+    color: white;
+}
+
+    
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;  
+}
+    
+.login_btn{
+    color: black;
+    background-color: #291d94;
+    width: 100px;
+}
+        
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+body{
+    background-image: url("../../assets/backgrond2.jpg");
+    background-repeat: no-repeat,repeat-x;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+.center{
+    text-align: center;
+}
+.login_btn{
+    margin-right: 2%;
+    margin-left: 3%;
+}

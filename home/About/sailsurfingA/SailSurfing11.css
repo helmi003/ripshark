@@ -1,0 +1,27 @@
+p{
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 25;
+    color: black;
+}
+span
+{
+    font-weight: bold;
+    color: darkblue;
+}
+body
+{
+  background-image: url("../../../assets/backgrond2.jpg");
+  background-repeat: no-repeat,repeat-x;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+}
+.a{
+    color: purple;
+}
+.ul
+{
+    margin-left: 5%;
+    font-size: 25px;
+    color: black;
+}

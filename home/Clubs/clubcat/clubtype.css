@@ -1,0 +1,73 @@
+img
+{
+	height:200;
+	width:200;
+	transition:0.5s;
+	margin-right:30;
+}
+
+body
+{
+  background-image: url("../../../assets/backgrond2.jpg");
+  background-repeat: no-repeat,repeat-x;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+}
+
+a img:hover
+{
+	height:300;
+	width:300;
+}
+.div1
+{
+	margin-top:20px;
+	margin-left:23%;
+    width: 900px;
+    display: flex;  
+    flex-wrap: wrap;
+    text-align:center;
+	color:#b30000;
+	text-shadow: 3px 3px 5px #000066;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #203b94;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 40%;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-left: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    left: 0;
+}

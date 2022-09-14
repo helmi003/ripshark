@@ -1,0 +1,53 @@
+.img
+{
+    width: 500px;
+    height: 300px;
+    margin-left: 30%;
+}
+.content{
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 25;
+    display: inline;
+}
+.recap
+{
+    text-decoration-line: underline;
+    color: rgb(121, 13, 13);
+}
+body
+{
+  background-image: url("../../../assets/backgrond2.jpg");
+  background-repeat: no-repeat,repeat-x;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+}
+video{
+    width:400; 
+	height:250;
+    margin-left: 30%;
+}
+
+.h2{
+    color: rgb(22, 22, 109);
+}
+.a{
+    color: purple;
+}
+p{
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+    color: black;
+}
+span
+{
+    font-weight: bold;
+    color: darkblue;
+}
+.ul
+{
+    margin-left: 5%;
+    font-size: 25px;
+    color: black;
+}

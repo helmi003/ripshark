@@ -1,0 +1,41 @@
+body
+{
+  background-image: url("../assets/backgrond2.jpg");
+  background-repeat: no-repeat,repeat-x;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+}
+
+.img{
+	width:200px; 
+	height:80px;
+	margin-top: 10px;
+}
+.p1
+{
+	padding:20px;
+	width:800px;
+	font-weight:bold;
+	font-size:20px;
+	margin-top: 91px;
+	color: black;
+}
+video
+{
+	width:400px; 
+	height:250px;
+	margin-right:3%;
+}
+
+.div-video
+{
+	float:right;
+	margin-top:5%;
+	margin-right:2%;
+}
+.rounded-circle{
+	margin-left: 2%;
+}
+.footer-copyright{
+	margin-top: 13%;
+}

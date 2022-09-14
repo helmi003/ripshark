@@ -1,0 +1,53 @@
+.container{
+    height: 100%;
+    align-content: center;
+    
+}
+    
+.card{
+    height: 630px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(4, 24, 88, 0.5) !important;
+}
+
+.card-header h3{
+    color:yellowgreen;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+body{
+    background-image: url("../assets/form_background.jpg");
+    background-repeat: no-repeat,repeat-x;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+.card-body{
+    text-align: center;
+    display: inline;
+    margin-top: 0%;
+}
+div .butt
+{
+	text-align:center;
+    border-radius: 10px;
+}
+.butt
+{
+	background-color:rgb(230, 215, 16);
+	color:white;
+	padding:10px;
+    font-size:20px;
+    font-weight: bold;
+}
+.butt:hover{
+    background-color:rgb(181, 192, 30);
+    text-decoration: none;
+    color: black;
+}
+div{
+    margin-top: 25px;
+}
